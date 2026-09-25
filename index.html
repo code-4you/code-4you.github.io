@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>code-4you</title>
+<meta name="description" content="Games, maps and tools by code-4you: The Arrivals Hall, Choose Neighbors, World Migration Flows, World Travel Flows, Script to Screen and more.">
+<meta property="og:title" content="code-4you">
+<meta property="og:description" content="Games, maps and tools: The Arrivals Hall, Choose Neighbors, World Migration Flows, World Travel Flows, Script to Screen and more.">
+<meta property="og:url" content="https://code-4you.github.io/">
+<meta property="og:type" content="website">
+<style>
+  :root{--bg:#070d16;--card:#0d1522;--edge:rgba(127,230,255,.18);--text:#dfe9f5;--dim:#9fb4cc;--cyan:#7fe6ff;--amber:#ffd27f}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 "Segoe UI",system-ui,-apple-system,sans-serif}
+  a{color:var(--cyan);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1040px;margin:0 auto;padding:40px 20px 60px}
+  header{margin-bottom:34px}
+  header h1{margin:0 0 6px;font-size:34px;letter-spacing:.04em}
+  header p{margin:0;color:var(--dim);max-width:640px}
+  .hero{display:block;border:1px solid var(--edge);border-radius:14px;padding:26px 28px;margin-bottom:22px;
+    background:linear-gradient(135deg,#0d1a2b 0%,#0a1220 60%,#0d1522 100%);color:inherit}
+  .hero:hover{text-decoration:none;border-color:rgba(127,230,255,.45)}
+  .hero .kicker{color:var(--amber);font-size:12px;letter-spacing:.22em;text-transform:uppercase}
+  .hero h2{margin:6px 0 8px;font-size:26px}
+  .hero p{margin:0 0 14px;color:var(--dim);max-width:720px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+  .card{border:1px solid var(--edge);border-radius:12px;padding:20px 22px;background:var(--card);display:flex;flex-direction:column}
+  .card h3{margin:0 0 8px;font-size:19px}
+  .card p{margin:0 0 16px;color:var(--dim);flex:1}
+  .links{display:flex;flex-wrap:wrap;gap:10px}
+  .btn{display:inline-block;padding:7px 14px;border-radius:8px;border:1px solid rgba(127,230,255,.45);font-size:14px;letter-spacing:.03em}
+  .btn:hover{background:rgba(127,230,255,.1);text-decoration:none}
+  .btn.src{border-color:rgba(159,180,204,.35);color:var(--dim)}
+  footer{margin-top:44px;color:var(--dim);font-size:14px;border-top:1px solid var(--edge);padding-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>code-4you</h1>
+    <p>Games, maps and tools, all open source. Most of them run straight in the browser — nothing to install, no account.</p>
+  </header>
+
+  <div class="hero">
+    <div class="kicker">Play it here</div>
+    <h2><a href="https://code-4you.github.io/arrivals-hall/">The Arrivals Hall</a></h2>
+    <p>A first-person walkable 3D hub — a small sci-fi mall that is the arrivals hall of a human–AI community. Each door launches one of the games. Talk to Elara the guide, tell the fountain what you want to do, take a job, hear a story.</p>
+    <div class="links">
+      <a class="btn" href="https://code-4you.github.io/arrivals-hall/">Play in the browser</a>
+      <a class="btn" href="https://freegames99.itch.io/arrivals-hall">Also on itch.io</a>
+      <a class="btn src" href="https://github.com/code-4you/arrivals-hall">Source</a>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Choose Neighbors</h3>
+      <p>Homes and communities designed around friendship — people choose their neighbours. That's all; everything else is supplementary. The full source of chooseneighbors.com: a working site, the Belonging essay series, guides and live experiments.</p>
+      <div class="links"><a class="btn" href="https://chooseneighbors.com/">Visit the site</a><a class="btn src" href="https://github.com/code-4you/chooseneighbors">Source</a></div>
+    </div>
+    <div class="card">
+      <h3>World Migration Flows</h3>
+      <p>An open-source, interactive map of global migration, 1960–2024 — a rebuild of Max Galka's Metrocosm global immigration map, whose original site is no longer online. Animated particles show estimated flows between countries.</p>
+      <div class="links"><a class="btn" href="https://code-4you.github.io/world-migration-flows/">Open the map</a><a class="btn src" href="https://github.com/code-4you/world-migration-flows">Source</a></div>
+    </div>
+    <div class="card">
+      <h3>World Travel Flows</h3>
+      <p>An animated map of every cross-border trip on Earth, 1995–2022 — tourism, business, family visits, short-term work. The sibling of World Migration Flows: together the two maps tile all movement between countries.</p>
+      <div class="links"><a class="btn" href="https://code-4you.github.io/world-travel-flows/">Open the map</a><a class="btn src" href="https://github.com/code-4you/world-travel-flows">Source</a></div>
+    </div>
+    <div class="card">
+      <h3>Script to Screen</h3>
+      <p>Turn any script into a voiced, illustrated video — free, in your browser, no signup. Paste a screenplay or story: it works out who speaks each line, gives every character its own voice, reads it aloud, sketches the visuals and hands you a single video file.</p>
+      <div class="links"><a class="btn" href="https://code-4you.github.io/script-to-screen/">Open the tool</a><a class="btn src" href="https://github.com/code-4you/script-to-screen">Source</a></div>
+    </div>
+    <div class="card">
+      <h3>Visits vs Migration</h3>
+      <p>Which travel corridors are pathways, and which are just tourism? Every corridor on Earth coloured by migrations per 10,000 visits, 1995–2022 — cold blue for pure visiting, hot pink for a migration corridor.</p>
+      <div class="links"><a class="btn" href="https://code-4you.github.io/visits-vs-migration/">Open the map</a><a class="btn src" href="https://github.com/code-4you/visits-vs-migration">Source</a></div>
+    </div>
+    <div class="card">
+      <h3>Secret Jobs</h3>
+      <p>Finds job openings posted on employers' own websites and small niche sites, then checks each one is not also listed on a major board before publishing it. One API key, one static site, built to stay cheap. Starts with Adelaide.</p>
+      <div class="links"><a class="btn" href="https://code-4you.github.io/secret-jobs/">Open the site</a><a class="btn src" href="https://github.com/code-4you/secret-jobs">Source</a></div>
+    </div>
+  </div>
+
+  <footer>
+    All of it on <a href="https://github.com/code-4you">github.com/code-4you</a>. The games' home site is <a href="https://lightsmithforge.linkpc.net/">Lightsmith Forge</a>.
+  </footer>
+</div>
+</body>
+</html>
